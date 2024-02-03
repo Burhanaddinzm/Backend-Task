@@ -13,7 +13,7 @@ namespace ConsoleApp2.Contexts
             base.OnConfiguring(optionsBuilder);
         }
 
-        public DbSet<Category> Categories { get; set; }
-        public DbSet<Product> Products { get; set; }
+        public DbSet<Category> Categories { get; set; } = null!;
+        public DbSet<Product> Products { get; set; } = null!;
     }
 }

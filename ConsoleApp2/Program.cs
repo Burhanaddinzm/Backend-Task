@@ -204,7 +204,7 @@ void RemoveProduct()
 string CheckName()
 {
     Console.WriteLine("Input Name:");
-    string name = Console.ReadLine();
+    string? name = Console.ReadLine();
 
     while (string.IsNullOrWhiteSpace(name))
     {
